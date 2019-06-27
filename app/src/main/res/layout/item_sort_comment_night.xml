@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="10dp"
+    app:cardBackgroundColor="@color/item_sort_comment_night_bg"
+    app:cardElevation="1dp">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/item_article"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_family"
+            android:gravity="start"
+            android:lineSpacingExtra="5dp"
+            android:paddingHorizontal="20dp"
+            android:text="未知"
+            android:textColor="@color/red_text_bg" />
+
+        <TextView
+            android:id="@+id/item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_writer"
+            android:layout_marginTop="20dp"
+            android:gravity="start"
+            android:lineSpacingExtra="5dp"
+            android:paddingHorizontal="20dp"
+            android:paddingTop="@dimen/dp_10"
+            android:text="离开大卡司将大幅拉升激动i问哦i根据阿莱克斯的价格拉升阶段gas第几个绿卡时间的管理会计啊三大纪律"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@id/item_article" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:paddingHorizontal="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_content">
+
+            <TextView
+                android:id="@+id/tv_hot"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/hot"
+                android:drawablePadding="10dp"
+                tools:text="热度(2940)" />
+
+            <TextView
+                android:id="@+id/tv_writer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/writer"
+                android:drawablePadding="10dp"
+                tools:text="纳兰性德" />
+
+            <TextView
+                android:id="@+id/tv_publisher"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/publisher"
+                android:drawablePadding="10dp"
+                tools:text="纳兰性德" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>

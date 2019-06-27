@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">句子控</string>
+    <string name="like">收藏</string>
+    <string name="search_text">请输入作品或作者，例如‘背影’</string>
+    <string name="menu_native_like">○\t\t\t\t\t\t本地收藏</string>
+    <string name="menu_app_theme">○\t\t\t\t\t\t应用主题</string>
+    <string name="app_theme">应用主题</string>
+    <string name="app_theme_day">○\t\t白昼</string>
+    <string name="app_theme_night">○\t\t黑夜</string>
+
+    <string-array name="tab_item">
+        <item>广场</item>
+        <item>分类</item>
+        <item>搜索</item>
+    </string-array>
+
+    <string-array name="hotpage_item">
+        <item>最新上传</item>
+        <item>今日热门</item>
+        <item>今日推荐</item>
+        <item>最受欢迎</item>
+    </string-array>
+
+    <string-array name="menu_item">
+        <item>书籍</item>
+        <item>电影</item>
+        <item>散文</item>
+        <item>动漫</item>
+        <item>电视剧</item>
+        <item>古诗词</item>
+    </string-array>
+
+    <string-array name="recommend_tag_item">
+        <item>三体</item>
+        <item>爆裂鼓手</item>
+        <item>模仿游戏</item>
+        <item>海贼王</item>
+        <item>海上钢琴师</item>
+        <item>两小无猜</item>
+    </string-array>
+</resources>

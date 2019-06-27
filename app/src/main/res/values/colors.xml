@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#728ea3</color>
+    <color name="colorAccent">@android:color/holo_orange_dark</color>
+
+    <color name="colorPrimaryDark">#202020</color>
+    <color name="colorAccentDark">@android:color/holo_orange_dark</color>
+
+    <color name="square_tab_item_bg">#EFEFEF</color>
+    <color name="yellow_dark">#C8AD5E</color>
+    <color name="black">#000000</color>
+    <color name="black_translate">#80000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#cccccc</color>
+    <color name="tab_gray">#AAAAAA</color>
+    <color name="red_bg">#E6103B</color>
+    <color name="red_light">#e12047</color>
+    <color name="status_bar_night">#202020</color>
+    <color name="background_night">#1a1a1a</color>
+    <color name="item_sort_comment_night_bg">#212121</color>
+    <color name="red_text_bg">#cd2942</color>
+
+</resources>
