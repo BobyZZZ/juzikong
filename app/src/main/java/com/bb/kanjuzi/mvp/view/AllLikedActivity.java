@@ -84,7 +84,9 @@ public class AllLikedActivity extends BaseActivity<AllLikedActivityPresenter> im
             @Override
             public void onItemClick(BaseQuickAdapter adapter, View view, int position) {
                 CollectionInfo collectionInfo = ((AllLikedRVAdapter) adapter).getData().get(position);
-                DetailPageActivity.startDetailPageActivity(AllLikedActivity.this, collectionInfo.t);
+                if (!collectionInfo.isHeader) {
+                    DetailPageActivity.startDetailPageActivity(AllLikedActivity.this, collectionInfo.t);
+                }
             }
         });
     }
