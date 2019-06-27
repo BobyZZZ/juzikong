@@ -42,7 +42,6 @@ public class SquareTabFragment extends BaseFragment<SquareTabFragmentPresenter> 
     public static final int SQUARE_RECOMMEND = 2;
     public static final int SQUARE_POPULAR = 3;
 
-
     @BindView(R.id.recyclerView)
     RecyclerView mRecyclerView;
     @BindView(R.id.swipeRefreshLayout)
@@ -156,6 +155,8 @@ public class SquareTabFragment extends BaseFragment<SquareTabFragmentPresenter> 
     @Override
     public void onLoadDataFail() {
         mAdapter.loadMoreEnd();
+        Toast.makeText(getContext(),"没有更多数据了",Toast.LENGTH_SHORT).show();
+        mSwipeRefreshLayout.setRefreshing(false);
     }
 
     @Override

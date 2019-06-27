@@ -144,6 +144,8 @@ public class SortTabFragment extends BaseFragment<SortTabFragmentPresenter> impl
     @Override
     public void onLoadDataFail() {
         mAdapter.loadMoreEnd();
+        Toast.makeText(getContext(),"没有更多数据了",Toast.LENGTH_SHORT).show();
+        mSwipeRefreshLayout.setRefreshing(false);
     }
 
     @Override
